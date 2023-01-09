@@ -1,0 +1,124 @@
+/* Стили */
+
+.home {
+	position: absolute;
+	width: 1440px;
+
+	/* left: 0px;
+	top: 0px; */
+
+	background: #EDF2EC;
+}
+
+.document_1 {
+	/* для секции 1*/
+	/*position: absolute;
+	width: 1440px;
+	left: 0px;
+	top: 134px; */
+	height: 532px;
+	background: #47e228;
+}
+
+.document_2 {
+	/* для секции 2*/
+	/*position: absolute;
+	width: 1440px;
+	left: 0px;
+	top: 134px; */
+	height: 666px;
+	background: #28cce2;
+}
+
+.document_3 {
+	/* для секции 23*/
+	/*position: absolute;
+	width: 1440px;
+	left: 0px;
+	top: 134px; */
+	height: 560px;
+	background: #47e228;
+}
+
+.document_4 {
+	/* для секции 2*/
+	/*position: absolute;
+	width: 1440px;
+	left: 0px;
+	top: 134px; */
+	height: 550px;
+	background: #28cce2;
+}
+
+.document_5 {
+	/* для секции 23*/
+	/*position: absolute;
+	width: 1440px;
+	left: 0px;
+	top: 134px; */
+	height: 550px;
+	background: #47e228;
+}
+
+.document_completion {
+	/* завершение документа  2*/
+	/*position: absolute;
+	width: 1440px;
+	left: 0px;
+	top: 134px; */
+	height: 130px;
+	background: #dc28e2;
+}
+
+/*------------------------------------------*/
+.menu {
+	/*очистить первую точку*/
+	list-style-type: none;
+	padding-right: 109px;
+	/*border: 1px solid;
+	padding: 0px;*/
+	margin: -4px;
+
+
+}
+
+.menu li {
+	/*повернуть контейнер боком */
+	display: inline-block;
+
+
+
+}
+
+.menubar {
+	/*очистить первую точку*/
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.itom {
+	/*border: 1px solid;*/
+	padding: 0px;
+	margin: 46px;
+
+
+	font-family: 'Inika';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 50px;
+	color: #010201;
+
+
+
+}
+
+.itom_1 {
+	/*font-family: 'Inika';
+	font-style: normal;*/
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 50px;
+	color: #E06733;
+}
