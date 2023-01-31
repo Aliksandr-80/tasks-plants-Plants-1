@@ -1,0 +1,207 @@
+/* Стили */
+
+.home {
+	position: absolute;
+	width: 1440px;
+	background: #EDF2EC;
+}
+
+.logo {
+	width: 191px;
+	height: 134px;
+}
+
+.nav_o1 {
+	position: absolute;
+	margin: 42px 0px 0px 111px;
+	display: flex;
+	flex-direction: row;
+}
+
+.Vec {
+	position: absolute;
+	bottom: 20px;
+}
+
+
+
+.Vec_t {
+	position: relative;
+	left: 23px;
+}
+
+
+
+.nav_1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.document_1 {
+	height: 532px;
+	/*background: #47e228;*/
+}
+
+.document_2 {
+	height: 666px;
+	background: #28cce2;
+}
+
+.document_3 {
+	height: 560px;
+	background: #47e228;
+}
+
+.document_4 {
+	height: 550px;
+	background: #28cce2;
+}
+
+.document_5 {
+	height: 550px;
+	background: #47e228;
+}
+
+.document_completion {
+	height: 130px;
+	background: #dc28e2;
+}
+
+/*------------------------------------------*/
+.menu {
+	/*очистить первую точку*/
+	list-style-type: none;
+	padding-right: 109px;
+	/* устанавливает значение поля от правого края элемента. */
+	margin: -0px;
+	height: 134px;
+
+
+
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menubar {
+	/*очистить первую точку*/
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.itom {
+	/*border: 1px solid;*/
+	padding: 0px 3px 0px 3px;
+	margin: 42px 20px 42px 20px;
+	/*горизонтальное расстояние между блоками*/
+	font-family: 'Inika';
+	/* название шрифта */
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 50px;
+	color: #010201;
+}
+
+.itom:hover {
+	/*font-family: 'Inika';
+	font-style: normal;*/
+	padding: 0px 1px 0px 1px;
+	margin: 42px 20px 42px 20px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 50px;
+	color: #E06733;
+}
+
+
+.block_row {
+	display: flex;
+	justify-content: space-between;
+	/*justify-content: space-between;*/
+	/*распологаем блоки рядом  */
+}
+
+.block_column {
+	/*background-color: #e228aa;*/
+	margin: 5px;
+	/*border: 1px solid;*/
+	flex-basis: 50%;
+	/* ширина каждой колонки*/
+}
+
+.document_1_2 {
+	display: flex;
+	flex-direction: column;
+	/*	background-color: #5bb985;*/
+	justify-content: space-between;
+}
+
+.block_item {
+	/*border: 1px solid;*/
+	flex-basis: 33%;
+}
+
+.Heading {
+
+	width: 549px;
+	height: 101px;
+	margin: 98px 109px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 50px;
+	color: #717171;
+}
+
+.gri {
+	color: #499A18;
+}
+
+.Text {
+	width: 549px;
+	height: 101px;
+}
+
+.Text_1 {
+	width: 525.44px;
+	height: 105px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 35px;
+}
+
+.button_1 {
+	Font-family: Inter;
+	Font-style: Regular;
+	Font-size: 16px;
+	Line-height: 20px;
+	Line-height: 103%;
+	/*Align: Center;*/
+	Vertical-align: Center;
+	Fill: Solid;
+	color: #000;
+	margin: 42px 0px 0px 0px;
+
+	width: 158px;
+	height: 44px;
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: #E06733;
+
+}
+
+.leafts {
+	margin: 62px 0px 62px 109px;
+	width: 450px;
+	height: 410px;
+
+}
