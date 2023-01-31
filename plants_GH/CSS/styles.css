@@ -46,17 +46,19 @@
 
 .document_2 {
 	height: 666px;
-	background: #28cce2;
+	/*background: #28cce2;*/
 }
 
 .document_3 {
-	height: 560px;
-	background: #47e228;
+	height: 1300px;
+	background: #EDF2EC;
+	padding: 0px 109px;
 }
 
 .document_4 {
 	height: 550px;
 	background: #28cce2;
+	margin: -2px 0px 0px 0px;
 }
 
 .document_5 {
@@ -122,7 +124,6 @@
 .block_row {
 	display: flex;
 	justify-content: space-between;
-	/*justify-content: space-between;*/
 	/*распологаем блоки рядом  */
 }
 
@@ -172,11 +173,12 @@
 .Text_1 {
 	width: 525.44px;
 	height: 105px;
-	font-family: 'Inter';
-	font-style: normal;
+	font-family: Inter;
+	font-style: Regular;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 35px;
+	color: #636060;
 }
 
 .button_1 {
@@ -204,4 +206,181 @@
 	width: 450px;
 	height: 410px;
 
+}
+
+.about_section {
+
+	width: 1222px;
+	height: 479px;
+	margin: 93px 109px 93px 109px;
+	flex-direction: row-reverse;
+}
+
+.houseplant_1 {
+
+	width: 464px;
+	height: 479px;
+}
+
+
+.Text_2 {
+	width: 463px;
+	height: 102px;
+	font-family: Inter;
+	font-style: Regular;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
+	color: #499A18;
+	margin: 68px 0px 40px 0px;
+}
+
+.Text_2 span {
+	color: #E06733;
+}
+
+.Text_3 {
+	width: 605px;
+	height: 208px;
+	font-family: "Inter";
+	font-style: "Regular";
+	font-weight: 400;
+	font-size: 20px;
+	/*line-height: 30px;*/
+	line-height: 124%;
+	color: #636060;
+	margin: 40px 0px 0px 0px;
+}
+
+.Servis_content {
+	width: 1007px;
+	height: 94px;
+	margin: 40px 0px 0px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.Servis_content p {
+	width: 306px;
+	height: 94px;
+	font-family: "Inter";
+	font-style: "Regular";
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
+
+	color: #499A18;
+	margin: 0px 0px 0px 0px;
+}
+
+.services_btns {
+	width: 560px;
+	height: 50px;
+	margin: 29px 0px 0px 0px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.btn {
+
+	width: 160px;
+	height: 50px;
+
+	Font-family: Inter;
+	Font-style: Regular;
+	Font-size: 16px;
+	Line-height: 20px;
+	text-align: center;
+	vertical-align: center;
+	Fill: Solid;
+	color: #E06733;
+
+	margin: 0px 0px 0px 0px;
+
+
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: #E06733;
+
+}
+
+.btn:hover {
+
+	font-weight: 700;
+	color: #ffffff;
+	background: #E06733;
+}
+
+.service {
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	/*justify-content: space-around;*/
+	/*align-content: space-between;*/
+
+	width: 1222px;
+	height: 955px;
+	margin: 90px 109px 0px 0px;
+	background: #E3E1D5;
+
+}
+
+.service_item {
+	width: 330px;
+	height: 450px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-color: #E3E1D5;
+
+}
+
+
+.first {
+	width: 330px;
+	height: 350px;
+	/*background-color: #E3E1D5;*/
+}
+
+.rectangle {
+	width: 330px;
+	height: 100px;
+}
+
+.Garden_care {
+	height: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+	color: #E06733;
+
+
+}
+
+.Text_4 {
+	height: 44px;
+	display: flex;
+	justify-content: center;
+
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #717171;
+
+}
+
+.service div {
+	/*border: 3px solid*/
+	/*удалить посел подготовки */
 }
