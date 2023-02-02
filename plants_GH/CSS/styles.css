@@ -46,7 +46,7 @@
 
 .document_2 {
 	height: 666px;
-	/*background: #28cce2;*/
+	background: #FFFFFF;
 }
 
 .document_3 {
@@ -64,12 +64,16 @@
 
 .document_5 {
 	height: 550px;
-	background: #47e228;
+	background: #EDF2EC;
 }
 
 .document_completion {
 	height: 130px;
-	background: #dc28e2;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+
+	background: #FFFFFF;
+
 }
 
 /*------------------------------------------*/
@@ -134,6 +138,13 @@
 	/*border: 1px solid;*/
 	flex-basis: 50%;
 	/* ширина каждой колонки*/
+}
+
+.la {
+	width: 450px;
+	height: 410px;
+	margin: 109px 62px;
+
 }
 
 .document_1_2 {
@@ -619,10 +630,199 @@
 	order: 1;
 }
 
-/*.price_item div {
-	border: 3px solid
-		удалить посел подготовки 
+.contacts {
+	display: flex;
+	flex-direction: row-reverse;
+	/*justify-content: space-between;*/
+}
+
+.contacts-container {
+
+	width: 450px;
+	height: 50px;
+	margin: 148px 0px 0px 64px;
+	padding: 0px;
+	position: relative;
+}
+
+.Rectangle_no {
+	width: 450px;
+	height: 50px;
+	background: #D6E7D2;
+	box-shadow: 0px 9px 10px darkgrey;
 
 }
 
-*/
+.City {
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 5px 20px;
+	padding: 0px;
+	width: 204px;
+	height: 40px;
+	font-family: Inter;
+	Font-style: Regular;
+	Font-size: 20px;
+	Line-height: 40px;
+	color: #717171;
+
+
+
+}
+
+
+.Contact_us {
+	/*position: absolute;*/
+	width: 195px;
+	height: 51px;
+	margin: 60px 0px 0px 113px;
+	padding: 0px;
+	font-family: Inter;
+	Font-style: bold;
+	Font-size: 40px;
+	Line-height: 52px;
+	color: #499A18;
+
+
+
+}
+
+.Contact_woman_1 {
+
+	width: 400px;
+	/*height: 600px;*/
+	/*margin: 53px 0px 0px 109px;*/
+	margin: -170px 0px 0px 109px;
+	padding: 0px;
+	object-fit: cover;
+
+}
+
+.accordion_btn_no {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 17px;
+	left: 399px;
+}
+
+.document_completion {
+	padding: 40px 109px;
+}
+
+.content {
+	width: 1222px;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer_data {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 182px;
+	height: 50px;
+
+	/*padding: 40px 109px;*/
+
+}
+
+.social-list {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin: 11px 0px;
+	width: 188px;
+	height: 50px;
+}
+
+.social-list {
+
+	/*очистить первую точку*/
+	list-style-type: none;
+
+
+
+}
+
+
+
+.fonts {
+	Font-family: Inter;
+	Font-style: Regular;
+	Font-size: 20px;
+	Line-height: 50px;
+	Line-height: 207%;
+	Align: Left;
+	Vertical-align: Top;
+	Fill: Solid;
+
+}
+
+.github {
+	order: 2;
+
+
+}
+
+.dater {
+	order: 0;
+
+
+}
+
+.dat_2022 {
+	order: 1;
+
+
+}
+
+/*.document_completion div {
+	border: 3px solid
+		/*удалить посел подготовки 
+
+}*/
+
+.leaf_11 {
+	width: 33px;
+	height: 25px;
+	Opacity: 65%;
+	backdrop-filter: blur(9px);
+	transform: rotate(143deg);
+}
+
+.leaf_21 {
+	width: 97px;
+	height: 75px;
+	Opacity: 70%;
+	backdrop-filter: blur(5px);
+	transform: rotate(7deg);
+}
+
+.leaf_31 {
+	width: 68px;
+	height: 57px;
+	Opacity: 61%;
+	backdrop-filter: blur(7px);
+	transform: rotate(61deg);
+}
+
+.leaf_41 {
+	width: 33px;
+	height: 25px;
+	Opacity: 65%;
+	backdrop-filter: blur(9px);
+	transform: rotate(-128deg);
+}
+
+.leaf_51 {
+	width: 120px;
+	height: 77px;
+	Opacity: 75%;
+	backdrop-filter: blur(4px);
+	transform: rotate(-164deg);
+}
