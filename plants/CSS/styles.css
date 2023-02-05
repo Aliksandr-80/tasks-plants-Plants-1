@@ -46,6 +46,8 @@ footer {
 	flex-direction: row;
 	justify-content: space-between;
 	position: relative;
+
+
 }
 
 .logo {
@@ -72,20 +74,34 @@ h1 {
 }
 
 .header_inner {
-	margin: 36px 25px;
+	margin: 25px 40px;
 	height: 24px;
+	align-items: baseline;
 }
 
 .burger {
 	width: 40px;
 	height: 24px;
+	display: block;
 }
+
+.nav {
+	display: none;
+}
+
+
+
+
 
 /* --- welcome секция  --------------------------------------*/
 .welcome_section {
 	margin: 24px 25px;
 	flex-direction: row-reverse;
 	justify-content: flex-start;
+}
+
+.leats {
+	display: none;
 }
 
 .text_We_grow {
@@ -156,16 +172,28 @@ h1 {
 }
 
 .prices,
+.content_prices,
 .prices_prices,
 .About_section {
 	margin: 30px 25px;
 	display: flex;
 	flex-wrap: wrap;
+	;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	align-content: center;
+	justify-content: flex-start;
+
 }
 
+.prices {
+	flex-wrap: nowrap;
+}
+
+.content_prices {
+	margin: 0px 0px;
+}
 
 .text_We_are,
 .text_Service {
@@ -200,6 +228,8 @@ h1 {
 }
 
 .text_Service {
+	width: 187px;
+
 	text-align: left;
 	margin: 30px 168px 35px 25px;
 }
@@ -324,7 +354,7 @@ h1 {
 
 .prices {
 	margin: 0px;
-	/*height: 512px;*/
+	height: 512px;
 	background-color: #ffffff;
 	/*border: 1px solid #ffffff;*/
 }
@@ -443,6 +473,7 @@ h1 {
 }
 
 .Our_best {
+	order: 2;
 
 	font-family: Arial, sans-serif;
 	font-size: 20px;
@@ -458,6 +489,17 @@ h1 {
 	color: rgba(73, 154, 24, 1);
 }
 
+.leafs_2 {
+	order: 0;
+	display: none;
+}
+
+.btn_call_us {
+	order: 1;
+}
+
+
+
 /* --- contsct_us секция  --------------------------------------*/
 .contsct_us {
 
@@ -465,7 +507,7 @@ h1 {
 	left: -4px;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	align-content: center;
 	justify-content: space-between;
 	align-items: center;
@@ -600,4 +642,337 @@ h1 {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
+}
+
+@media (min-width: 767px) {
+
+	/*----header-----*/
+	/*----скрыть бургер-- добавить меню ---*/
+
+	.burger {
+		display: none;
+	}
+
+	.navbar {
+		margin: 0px 50px 35px 50px;
+	}
+
+	.nav {
+		width: 452px;
+		height: 47;
+		margin: 0px;
+		display: block;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+
+	.nav div {
+		font-family: Inika;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 50px;
+		letter-spacing: 0em;
+		text-align: left;
+
+
+	}
+
+	.nav div:hover {
+
+		font-weight: 700;
+		color: rgba(224, 103, 51, 1);
+
+
+	}
+
+
+	.Home {
+		order: 0;
+	}
+
+
+	.About_us {
+		order: 1;
+	}
+
+	.Service {
+		order: 2;
+	}
+
+	.Price {
+		order: 3;
+	}
+
+	.Contacts {
+		order: 4;
+	}
+
+	.welcome_section {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		margin: 40px 50px 70px 50px;
+
+
+	}
+
+	.leats {
+		order: 1;
+		display: block;
+		width: 280px;
+		height: 255px;
+
+	}
+
+	.Welcome_section {
+		order: 0;
+		width: 346px;
+		height: 310px;
+
+	}
+
+	.About_section {
+		margin: 40px 50px;
+	}
+
+	.text_We_grow {
+
+		font-size: 35px;
+		font-weight: 700;
+		line-height: 52px;
+
+	}
+
+
+	.text_Lorem_ipsum {
+
+		font-size: 16px;
+		line-height: 25px;
+		margin: 30px 15px 30px 0px;
+
+
+	}
+
+	.text_Lorem {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.text_We_are {
+
+		width: 423px;
+		height: 102px;
+
+		font-size: 35px;
+		font-weight: 400;
+		line-height: 46px;
+		text-align: center;
+
+	}
+
+	.text_Service {
+		font-size: 35px;
+		line-height: 46px;
+		width: 306px;
+		margin: 60px 0px 0px 50px;
+	}
+
+	.service_btns {
+		margin: 40px 50px;
+	}
+
+
+	.leafs_2 {
+		order: 0;
+		display: block;
+		width: 152px;
+		height: 174px;
+	}
+
+	.Rectangle_6 {
+		min-width: 160px;
+		min-height: 50px;
+		margin: 5px;
+		font-size: 20px;
+		line-height: 26px;
+		border-radius: 5px;
+	}
+
+
+	.houseplant_1 {
+		width: 250px;
+		height: 258px;
+	}
+
+	.contsct_us {
+		height: 740px;
+	}
+
+	.Contact_woman_1 {
+		width: 200px;
+		height: 400px;
+		object-fit: cover;
+	}
+
+	.Our_best {
+
+		font-size: 25px;
+	}
+
+	.content_prices {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
+
+
+
+	.text_call_us {
+		width: 300px;
+		height: 360px;
+	}
+}
+
+@media (min-width: 1438px) {
+	.navbar {
+		margin: 0px 111px 42px 111px;
+	}
+
+	.welcome_section {
+
+		margin: 62px 109px 62px 109px;
+	}
+
+	.leats {
+		order: 0;
+		display: block;
+		width: 450px;
+		height: 407px;
+
+	}
+
+	.Welcome_section {
+		order: 1;
+		width: 550px;
+		height: 340px;
+
+	}
+
+	.About_section {
+		height: 479px;
+		margin: 93px 109px;
+	}
+
+	.text_Lorem {
+		width: 605px;
+		height: 208px;
+		margin-right: 153px;
+	}
+
+	.text_We_are {
+		width: 463px;
+		height: 102px;
+		font-size: 40px;
+		line-height: 52px;
+		text-align: left;
+	}
+
+	.services {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-content: flex-start;
+		justify-content: flex-start;
+	}
+
+	.Rectangle_6 {
+		width: 160px;
+		height: 50px;
+		margin: 19px;
+		font-size: 20px;
+		line-height: 26px;
+		border-radius: 5px;
+	}
+
+	.content_prices {
+		width: 1222px;
+		height: 405px;
+	}
+
+	.text_call_us {
+		align-items: flex-end;
+	}
+
+	.prices_prices {
+		width: 332px;
+		height: 282px;
+	}
+
+	.contacts-container {
+		order: 0;
+		margin-top: 148px;
+		width: 450px;
+	}
+
+	.Rectangle_no {
+		width: 450px;
+	}
+
+	.Contact_us {
+		order: 1;
+		margin: 60px;
+	}
+
+	.text_Service {
+		display: block;
+		font-size: 40px;
+		line-height: 52px;
+		width: 306px;
+		margin: 42px 92px 90px 109px;
+	}
+
+	.houseplant_1 {
+		width: 464px;
+		height: 480px;
+	}
+
+	.contsct_us {
+		height: 550px;
+		display: flex;
+
+		flex-direction: row-reverse;
+		justify-content: space-evenly;
+		align-items: flex-start;
+
+	}
+
+	.Contact_woman_1 {
+		width: 400px;
+		height: 550px;
+		object-fit: cover;
+	}
+
+	.content {
+		height: 50px;
+		width: 1222px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 20px;
+		flex-wrap: nowrap;
+		align-items: baseline;
+	}
+
+	.footer_data {
+		height: 50px;
+		width: 182px;
+	}
+
+
+
 }
