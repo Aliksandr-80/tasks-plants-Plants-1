@@ -1,124 +1,978 @@
 /* Стили */
+/*mobile 380 px*/
 
-.home {
-	position: absolute;
-	width: 1440px;
-
-	/* left: 0px;
-	top: 0px; */
-
-	background: #EDF2EC;
+.brOp {
+	border: 1px solid black;
+	/*padding: auto;*/
 }
 
-.document_1 {
-	/* для секции 1*/
-	/*position: absolute;
-	width: 1440px;
-	left: 0px;
-	top: 134px; */
-	height: 532px;
-	background: #47e228;
+.brOpR {
+	border: 1px solid rgb(255, 0, 0);
+	/*padding: auto;*/
 }
 
-.document_2 {
-	/* для секции 2*/
-	/*position: absolute;
-	width: 1440px;
-	left: 0px;
-	top: 134px; */
-	height: 666px;
-	background: #28cce2;
+.brOpB:hover {
+	border: 1px solid rgb(0, 0, 255);
+	/*padding: auto;*/
 }
 
-.document_3 {
-	/* для секции 23*/
-	/*position: absolute;
-	width: 1440px;
-	left: 0px;
-	top: 134px; */
-	height: 560px;
-	background: #47e228;
+
+/* --- первая секция  --------------------------------------*/
+.Plants {
+	margin: 0px;
+	background-color: #ffffff;
 }
 
-.document_4 {
-	/* для секции 2*/
-	/*position: absolute;
-	width: 1440px;
-	left: 0px;
-	top: 134px; */
-	height: 550px;
-	background: #28cce2;
+header,
+section,
+footer {
+	background-color: #EDF2EC;
+	border: 1px solid #EDF2EC;
+	/*border: 1px solid black;*/
 }
 
-.document_5 {
-	/* для секции 23*/
-	/*position: absolute;
-	width: 1440px;
-	left: 0px;
-	top: 134px; */
-	height: 550px;
-	background: #47e228;
-}
 
-.document_completion {
-	/* завершение документа  2*/
-	/*position: absolute;
-	width: 1440px;
-	left: 0px;
-	top: 134px; */
-	height: 130px;
-	background: #dc28e2;
-}
-
-/*------------------------------------------*/
-.menu {
-	/*очистить первую точку*/
-	list-style-type: none;
-	padding-right: 109px;
-	/*border: 1px solid;
-	padding: 0px;*/
-	margin: -4px;
-
+.header {
+	/*height: 96px; не понятная проблема не выделяется фон header*/
 
 }
 
-.menu li {
-	/*повернуть контейнер боком */
-	display: inline-block;
 
-
-
-}
-
-.menubar {
-	/*очистить первую точку*/
+.logo,
+.welcome_section,
+.header_inner {
+	margin: 0px;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: space-between;
+	position: relative;
+
+
 }
 
-.itom {
-	/*border: 1px solid;*/
-	padding: 0px;
-	margin: 46px;
+.logo {
 
+	align-items: baseline;
+}
 
-	font-family: 'Inika';
-	font-style: normal;
+.logo_1 {
+	position: absolute;
+	left: -1px;
+	top: 3px;
+
+}
+
+.logo_2 {
+	position: relative;
+
+}
+
+h1 {
+	margin: 0px;
+	font-size: 16px;
 	font-weight: 400;
+}
+
+.header_inner {
+	margin: 25px 40px;
+	height: 24px;
+	align-items: baseline;
+}
+
+.burger {
+	width: 40px;
+	height: 24px;
+	display: block;
+}
+
+.nav {
+	display: none;
+}
+
+
+
+
+
+/* --- welcome секция  --------------------------------------*/
+.welcome_section {
+	margin: 24px 25px;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+}
+
+.leats {
+	display: none;
+}
+
+.text_We_grow {
+
+	font-family: Arial;
+	font-style: normal;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 35px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: rgba(113, 113, 113, 1);
+	margin: 0px;
+
+}
+
+.text_Lorem,
+.text_Lorem_ipsum {
+	font-family: Arial;
+	font-style: normal;
 	font-size: 16px;
-	line-height: 50px;
-	color: #010201;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin: 20px 15px 20px 0px;
+	color: rgba(99, 96, 96, 1);
+
+}
+
+.text_We_grow span {
+	color: rgba(73, 154, 24, 1);
+}
+
+.LEARN_MORE {
+	display: inline-block;
+	margin: 0px;
+
+	/*width: 100px;*/
+}
+
+.btn {
+	margin: 0px;
+	padding: 5px 15px;
+	font-family: Arial;
+	font-style: normal;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: center;
+	border: 2px solid rgba(224, 103, 51, 1);
+	border-radius: 10px;
+
+}
+
+.welcome {
+	/*height: 300px;*/
+}
+
+.leats {
+	display: none;
+}
+
+/* --- about секция  --------------------------------------*/
+.about {
+	/*height: 516px;*/
+}
+
+.prices,
+.content_prices,
+.prices_prices,
+.About_section {
+	margin: 30px 25px;
+	display: flex;
+	flex-wrap: wrap;
+	;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	align-content: center;
+	justify-content: flex-start;
+
+}
+
+.prices {
+	flex-wrap: nowrap;
+}
+
+.content_prices {
+	margin: 0px 0px;
+}
+
+.text_We_are,
+.text_Service {
+	font-family: serif;
+	font-style: normal;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: rgba(73, 154, 24, 1);
+	margin: 0px 15px;
+}
+
+.text_We_are span {
+	color: rgba(224, 103, 51, 1);
+}
+
+.text_Lorem {
+	/*font-size: 15px;*/
+	margin: 20px 0px 0px 0px;
+}
+
+.houseplant_1 {
+	width: 150px;
+	height: 147px;
+}
+
+/* --- services секция  --------------------------------------*/
+.services {
+	/*height: 3150px;*/
+}
+
+.text_Service {
+	width: 187px;
+
+	text-align: left;
+	margin: 30px 168px 35px 25px;
+}
+
+.service_btns {
+	margin: 30px 70px 23px 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+
+.Rectangle_6 {
+	min-width: 120px;
+	min-height: 35px;
+	margin: 5px;
+	color: rgba(224, 103, 51, 1);
+	font-family: serif;
+	font-style: normal;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: center;
+	border-color: rgba(224, 103, 51, 1);
+	border-radius: 10px;
+}
+
+.Rectangle_6:hover {
+	background: rgba(224, 103, 51, 1);
+	color: rgba(255, 255, 255, 1)
+}
+
+.btn_1 {
+	order: 2;
+}
+
+.btn_2 {
+	order: 1;
+}
+
+.btn_3 {
+	order: 0;
+}
+
+/* --- service_items секция  --------------------------------------*/
+.service_items {
+
+	/*width: 280px;
+	height: 450px;*/
+
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: flex-start;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.prices_prices {
+	margin-bottom: 19px;
+}
+
+.first {
+	width: 280px;
+	height: 350px;
+	object-fit: cover;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.service_item {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column-reverse;
+	justify-content: flex-start;
+	align-items: center;
+	border-radius: 20px;
+	margin: 17px 50px;
+}
+
+.text_garden_care {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	position: absolute;
+}
+
+.text_garden_care,
+.Rectangle_5 {
+	width: 280px;
+	height: 100px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+.text_garden_care .text_Lorem_ipsum {
+	line-height: 20px;
+	margin: 0px 40px;
+	text-align: center;
+}
+
+.text_Garden_care {
+
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: rgba(224, 103, 51, 1);
+	margin: 10px;
+
+
+}
+
+/* --- prices секция  --------------------------------------*/
+
+.prices {
+	margin: 0px;
+	height: 512px;
+	background-color: #ffffff;
+	/*border: 1px solid #ffffff;*/
+}
+
+.text_Prices {
+	font-family: Arial;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: rgba(0, 0, 0, 1);
+	margin: 25px 0px 10px 0px;
+
+}
+
+/*=============================================*/
+
+.Rectangle_7 {
+	position: absolute;
+	left: 0px;
+	width: 180px;
+	height: 50px;
+	border-radius: 20px;
+	/*border: 1px solid rgba(0, 0, 0, 1);*/
+
+
+}
+
+.Prices_items {
+	margin: 0px;
+	padding: 22px 0px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid rgba(113, 113, 113, 1);
+	border-radius: 20px;
+}
+
+.prices_items {
+
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	border: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.price_item {
+	/*width: 180px;
+	height: 50px;*/
+	padding: 16px 30px;
+	margin: 7px 22px;
+
+	border: 0.5px solid rgba(113, 113, 113, 1);
+	background: rgba(237, 242, 236, 1);
+
+	border-radius: 20px;
+	display: flex;
+
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+
+}
+
+.Pro_care {
+	width: 103px;
+	/*margin: 16px 5px 16px 30px;*/
+}
+
+.accordion_btn {
+	width: 16px;
+	height: 16px;
+	display: block;
+	/*position: relative;*/
+}
+
+.Ellipse_5 {
+	/*position: absolute;*/
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	background: #717171;
+}
+
+.arrow {
+	/*position: absolute;*/
+}
+
+.nu_Pro_care {
+	order: 2;
+}
+
+.nu_Basics {
+	order: 0;
+}
+
+.nu_Standard {
+	order: 1;
+
+}
+
+.btn_4 {
+	margin: 14px 0px 40px;
+	padding: 0px;
+
+}
+
+.text_call_us {
+	padding: 0px 76px;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.Our_best {
+	order: 2;
+
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 35px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: rgba(0, 0, 0, 1);
+
+}
+
+.gri {
+	color: rgba(73, 154, 24, 1);
+}
+
+.leafs_2 {
+	order: 0;
+	display: none;
+}
+
+.btn_call_us {
+	order: 1;
+}
+
+
+
+/* --- contsct_us секция  --------------------------------------*/
+.contsct_us {
+
+	height: 445px;
+	left: -4px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Contact_us {
+	order: 0;
+	font-family: serif;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 33px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: rgba(73, 154, 24, 1);
+	padding: 0px;
+	margin-top: 25px;
+
+}
+
+.contacts-container {
+	order: 1;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	align-content: center;
+	justify-content: space-between;
+	align-items: center;
+	background: rgba(214, 231, 210, 1);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+	border: 0.5px solid rgba(255, 255, 255, 1)
+}
+
+.Rectangle_no {
+	width: 300px;
+	height: 50px;
+	position: absolute;
+}
+
+.accordion_btn_no {}
+
+.City {
+	width: 204px;
+	height: 40px;
+	margin: 5px 20px;
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 40px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	color: rgba(113, 113, 113, 1);
+
+}
+
+.accordion_btn_no .Ellipse_5 {
+	margin: 17px 20px;
+}
+
+.Contact_woman_1 {
+	order: 2;
+	width: 100px;
+	height: 180px;
+	object-fit: cover;
+
+}
+
+/* --- footer секция  --------------------------------------*/
+.footer {
+	height: 146px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	background: rgba(255, 255, 255, 1);
+
+}
+
+.fonts {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
 
 
 
 }
 
-.itom_1 {
-	/*font-family: 'Inika';
-	font-style: normal;*/
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 50px;
-	color: #E06733;
+.content {
+	height: 117px;
+	width: 210px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 20px;
+}
+
+
+
+.dat_2022 {
+	order: 0;
+	margin: 0px 20px;
+}
+
+.github {
+	order: 2;
+	padding-bottom: 20px;
+}
+
+.footer_data {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: baseline;
+	justify-content: center;
+}
+
+.social-list {
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	width: 188px;
+	height: 50px;
+	/*очистить первую точку*/
+	list-style-type: none;
+	list-style-type: none;
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (min-width: 767px) {
+
+	/*----header-----*/
+	/*----скрыть бургер-- добавить меню ---*/
+
+	.burger {
+		display: none;
+	}
+
+	.navbar {
+		margin: 0px 50px 35px 50px;
+	}
+
+	.nav {
+		width: 452px;
+		height: 47;
+		margin: 0px;
+		display: block;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: baseline;
+	}
+
+	.nav div {
+		font-family: Inika;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 50px;
+		letter-spacing: 0em;
+		text-align: left;
+
+
+	}
+
+	.nav div:hover {
+
+		font-weight: 700;
+		color: rgba(224, 103, 51, 1);
+
+
+	}
+
+
+	.Home {
+		order: 0;
+	}
+
+
+	.About_us {
+		order: 1;
+	}
+
+	.Service {
+		order: 2;
+	}
+
+	.Price {
+		order: 3;
+	}
+
+	.Contacts {
+		order: 4;
+	}
+
+	.welcome_section {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		margin: 40px 50px 70px 50px;
+
+
+	}
+
+	.leats {
+		order: 1;
+		display: block;
+		width: 280px;
+		height: 255px;
+
+	}
+
+	.Welcome_section {
+		order: 0;
+		width: 346px;
+		height: 310px;
+
+	}
+
+	.About_section {
+		margin: 40px 50px;
+	}
+
+	.text_We_grow {
+
+		font-size: 35px;
+		font-weight: 700;
+		line-height: 52px;
+
+	}
+
+
+	.text_Lorem_ipsum {
+
+		font-size: 16px;
+		line-height: 25px;
+		margin: 30px 15px 30px 0px;
+
+
+	}
+
+	.text_Lorem {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.text_We_are {
+
+		width: 423px;
+		height: 102px;
+
+		font-size: 35px;
+		font-weight: 400;
+		line-height: 46px;
+		text-align: center;
+
+	}
+
+	.text_Service {
+		font-size: 35px;
+		line-height: 46px;
+		width: 306px;
+		margin: 60px 0px 0px 50px;
+	}
+
+	.service_btns {
+		margin: 40px 50px;
+	}
+
+
+	.leafs_2 {
+		order: 0;
+		display: block;
+		width: 152px;
+		height: 174px;
+	}
+
+	.Rectangle_6 {
+		min-width: 160px;
+		min-height: 50px;
+		margin: 5px;
+		font-size: 20px;
+		line-height: 26px;
+		border-radius: 5px;
+	}
+
+
+	.houseplant_1 {
+		width: 250px;
+		height: 258px;
+	}
+
+	.contsct_us {
+		height: 740px;
+	}
+
+	.Contact_woman_1 {
+		width: 200px;
+		height: 400px;
+		object-fit: cover;
+	}
+
+	.Our_best {
+
+		font-size: 25px;
+	}
+
+	.content_prices {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
+
+
+
+	.text_call_us {
+		width: 300px;
+		height: 360px;
+	}
+}
+
+@media (min-width: 1438px) {
+	.navbar {
+		margin: 0px 111px 42px 111px;
+	}
+
+	.welcome_section {
+
+		margin: 62px 109px 62px 109px;
+	}
+
+	.leats {
+		order: 0;
+		display: block;
+		width: 450px;
+		height: 407px;
+
+	}
+
+	.Welcome_section {
+		order: 1;
+		width: 550px;
+		height: 340px;
+
+	}
+
+	.About_section {
+		height: 479px;
+		margin: 93px 109px;
+	}
+
+	.text_Lorem {
+		width: 605px;
+		height: 208px;
+		margin-right: 153px;
+	}
+
+	.text_We_are {
+		width: 463px;
+		height: 102px;
+		font-size: 40px;
+		line-height: 52px;
+		text-align: left;
+	}
+
+	.services {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-content: flex-start;
+		justify-content: flex-start;
+	}
+
+	.Rectangle_6 {
+		width: 160px;
+		height: 50px;
+		margin: 19px;
+		font-size: 20px;
+		line-height: 26px;
+		border-radius: 5px;
+	}
+
+	.content_prices {
+		width: 1222px;
+		height: 405px;
+	}
+
+	.text_call_us {
+		align-items: flex-end;
+	}
+
+	.prices_prices {
+		width: 332px;
+		height: 282px;
+	}
+
+	.contacts-container {
+		order: 0;
+		margin-top: 148px;
+		width: 450px;
+	}
+
+	.Rectangle_no {
+		width: 450px;
+	}
+
+	.Contact_us {
+		order: 1;
+		margin: 60px;
+	}
+
+	.text_Service {
+		display: block;
+		font-size: 40px;
+		line-height: 52px;
+		width: 306px;
+		margin: 42px 92px 90px 109px;
+	}
+
+	.houseplant_1 {
+		width: 464px;
+		height: 480px;
+	}
+
+	.contsct_us {
+		height: 550px;
+		display: flex;
+
+		flex-direction: row-reverse;
+		justify-content: space-evenly;
+		align-items: flex-start;
+
+	}
+
+	.Contact_woman_1 {
+		width: 400px;
+		height: 550px;
+		object-fit: cover;
+	}
+
+	.content {
+		height: 50px;
+		width: 1222px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 20px;
+		flex-wrap: nowrap;
+		align-items: baseline;
+	}
+
+	.footer_data {
+		height: 50px;
+		width: 182px;
+	}
+
+
+
 }
