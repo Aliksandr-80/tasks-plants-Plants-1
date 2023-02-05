@@ -1,0 +1,828 @@
+/* Стили */
+
+.home {
+	position: absolute;
+	width: 1440px;
+	background: #EDF2EC;
+}
+
+.logo {
+	width: 191px;
+	height: 134px;
+}
+
+.nav_o1 {
+	position: absolute;
+	margin: 42px 0px 0px 111px;
+	display: flex;
+	flex-direction: row;
+}
+
+.Vec {
+	position: absolute;
+	bottom: 20px;
+}
+
+
+
+.Vec_t {
+	position: relative;
+	left: 23px;
+}
+
+
+
+.nav_1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.document_1 {
+	height: 532px;
+	/*background: #47e228;*/
+}
+
+.document_2 {
+	height: 666px;
+	background: #FFFFFF;
+}
+
+.document_3 {
+	height: 1300px;
+	background: #EDF2EC;
+	padding: 0px 109px;
+}
+
+.document_4 {
+	height: 550px;
+	background: #FFFFFF;
+	margin: -2px 0px 0px 0px;
+	padding: 40px 109px;
+}
+
+.document_5 {
+	height: 550px;
+	background: #EDF2EC;
+}
+
+.document_completion {
+	height: 130px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+
+	background: #FFFFFF;
+
+}
+
+/*------------------------------------------*/
+.menu {
+	/*очистить первую точку*/
+	list-style-type: none;
+	padding-right: 109px;
+	/* устанавливает значение поля от правого края элемента. */
+	margin: -0px;
+	height: 134px;
+
+
+
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menubar {
+	/*очистить первую точку*/
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.itom {
+	/*border: 1px solid;*/
+	padding: 0px 3px 0px 3px;
+	margin: 42px 20px 42px 20px;
+	/*горизонтальное расстояние между блоками*/
+	font-family: 'Inika';
+	/* название шрифта */
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 50px;
+	color: #010201;
+}
+
+.itom:hover {
+	/*font-family: 'Inika';
+	font-style: normal;*/
+	padding: 0px 1px 0px 1px;
+	margin: 42px 20px 42px 20px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 50px;
+	color: #E06733;
+}
+
+
+.block_row {
+	display: flex;
+	justify-content: space-between;
+	/*распологаем блоки рядом  */
+}
+
+.block_column {
+	/*background-color: #e228aa;*/
+	margin: 5px;
+	/*border: 1px solid;*/
+	flex-basis: 50%;
+	/* ширина каждой колонки*/
+}
+
+.la {
+	width: 450px;
+	height: 410px;
+	margin: 109px 62px;
+
+}
+
+.document_1_2 {
+	display: flex;
+	flex-direction: column;
+	/*	background-color: #5bb985;*/
+	justify-content: space-between;
+}
+
+.block_item {
+	/*border: 1px solid;*/
+	flex-basis: 33%;
+}
+
+.Heading {
+
+	width: 549px;
+	height: 101px;
+	margin: 98px 109px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 50px;
+	color: #717171;
+}
+
+.gri {
+	color: #499A18;
+}
+
+.Text {
+	width: 549px;
+	height: 101px;
+}
+
+.Text_1 {
+	width: 525.44px;
+	height: 105px;
+	font-family: Inter;
+	font-style: Regular;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 35px;
+	color: #636060;
+}
+
+.button_1 {
+	Font-family: Inter;
+	Font-style: Regular;
+	Font-size: 16px;
+	Line-height: 20px;
+	Line-height: 103%;
+	/*Align: Center;*/
+	Vertical-align: Center;
+	Fill: Solid;
+	color: #000;
+	margin: 42px 0px 0px 0px;
+
+	width: 158px;
+	height: 44px;
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: #E06733;
+
+}
+
+.leafts {
+	margin: 62px 0px 62px 109px;
+	width: 450px;
+	height: 410px;
+
+}
+
+.about_section {
+
+	width: 1222px;
+	height: 479px;
+	margin: 93px 109px 93px 109px;
+	flex-direction: row-reverse;
+}
+
+.houseplant_1 {
+
+	width: 464px;
+	height: 479px;
+}
+
+
+.Text_2 {
+	width: 463px;
+	height: 102px;
+	font-family: Inter;
+	font-style: Regular;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
+	color: #499A18;
+	margin: 68px 0px 40px 0px;
+}
+
+.Text_2 span {
+	color: #E06733;
+}
+
+.Text_3 {
+	width: 605px;
+	height: 208px;
+	font-family: "Inter";
+	font-style: "Regular";
+	font-weight: 400;
+	font-size: 20px;
+	/*line-height: 30px;*/
+	line-height: 124%;
+	color: #636060;
+	margin: 40px 0px 0px 0px;
+}
+
+.Servis_content {
+	width: 1007px;
+	height: 94px;
+	margin: 40px 0px 0px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.Servis_content p {
+	width: 306px;
+	height: 94px;
+	font-family: "Inter";
+	font-style: "Regular";
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
+
+	color: #499A18;
+	margin: 0px 0px 0px 0px;
+}
+
+.services_btns {
+	width: 560px;
+	height: 50px;
+	margin: 29px 0px 0px 0px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.btn {
+
+	width: 160px;
+	height: 50px;
+
+	Font-family: Inter;
+	Font-style: Regular;
+	Font-size: 16px;
+	Line-height: 20px;
+	text-align: center;
+	vertical-align: center;
+	Fill: Solid;
+	color: #E06733;
+
+	margin: 0px 0px 0px 0px;
+
+
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: #E06733;
+
+}
+
+.btn:hover {
+
+	font-weight: 700;
+	color: #ffffff;
+	background: #E06733;
+}
+
+.service {
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	/*justify-content: space-around;*/
+	/*align-content: space-between;*/
+
+	width: 1222px;
+	height: 955px;
+	margin: 90px 109px 0px 0px;
+	background: #E3E1D5;
+
+}
+
+.service_item {
+	width: 330px;
+	height: 450px;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-color: #E3E1D5;
+
+}
+
+
+.first {
+	width: 330px;
+	height: 350px;
+	/*background-color: #E3E1D5;*/
+}
+
+.rectangle {
+	width: 330px;
+	height: 100px;
+}
+
+.Garden_care {
+	height: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	font-family: Inter;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 20px;
+	color: #E06733;
+
+
+}
+
+.Text_4 {
+	height: 44px;
+	display: flex;
+	justify-content: center;
+
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #717171;
+
+}
+
+
+.prices_wrapper {
+	width: 1222px;
+	height: 405px;
+
+	display: flex;
+	flex-flow: row wrap;
+	/*align-content: space-between;*/
+	justify-content: space-between;
+
+	position: absolute;
+}
+
+
+/* релить вопрос позиционирования 1 элемента */
+.leafs {
+	order: 2;
+	align-self: flex-end;
+	width: 152px;
+	height: 175px;
+
+}
+
+.leaf_1 {
+	width: 33px;
+	height: 25px;
+	Opacity: 65%;
+	backdrop-filter: blur(9px);
+	transform: rotate(143deg);
+}
+
+.leaf_2 {
+	width: 97px;
+	height: 75px;
+	Opacity: 70%;
+	backdrop-filter: blur(5px);
+	transform: rotate(7deg);
+}
+
+.leaf_3 {
+	width: 68px;
+	height: 57px;
+	Opacity: 61%;
+	backdrop-filter: blur(7px);
+	transform: rotate(61deg);
+}
+
+.leaf_4 {
+	width: 33px;
+	height: 25px;
+	Opacity: 65%;
+	backdrop-filter: blur(9px);
+	transform: rotate(-128deg);
+}
+
+.Text_call_us {
+	position: relative;
+	top: 0px;
+	left: 300px;
+	order: 1;
+	align-self: auto;
+	width: 452px;
+	height: 191px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.Prices {
+	order: 0;
+	width: 332px;
+	height: 391px;
+}
+
+.Our_best {
+
+	width: 452px;
+	height: 103px;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Inter';
+	font-style: bold;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: right;
+	vertical-align: Top;
+	color: #000000;
+}
+
+.btn_call_us {
+	width: 162px;
+	height: 50px;
+	margin: 38px 0px;
+
+}
+
+.btn_3 {
+
+	width: 160px;
+	height: 50px;
+
+	Font-family: Inika;
+	Font-style: bold;
+	Font-size: 20px;
+	Line-height: 26px;
+	text-align: center;
+	vertical-align: center;
+	Fill: Solid;
+	color: #E06733;
+
+	margin: 0px 0px 0px 0px;
+
+
+	border: 1px solid;
+	border-radius: 10px;
+	border-color: #E06733;
+
+}
+
+.btn_3:hover {
+
+	font-weight: 700;
+	color: #ffffff;
+	background: #E06733;
+}
+
+.Prices p {
+	width: 135px;
+	height: 49px;
+	margin: 0px;
+	padding: 0px;
+	font-family: Inter;
+	Font-style: bold;
+	Font-size: 40px;
+	Line-height: 48px;
+	color: #000000;
+	display: flex;
+
+
+}
+
+.prices_item {
+
+
+	position: absolute;
+	width: 332px;
+	height: 282px;
+	margin: 0px 0px 0px 0px;
+}
+
+.rectangle_5 {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 332px;
+	height: 282px;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 20px;
+
+}
+
+.prices_items {
+
+	width: 250px;
+	height: 215px;
+	position: absolute;
+	top: 34px;
+	left: 41px;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.price_item {
+	width: 250px;
+	height: 50px;
+	background: #EDF2EC;
+	border-radius: 20px;
+	position: relative;
+}
+
+.Rectangle_7 {
+	position: absolute;
+
+	width: 250px;
+	height: 50px;
+	border-radius: 20px;
+}
+
+.accordion_btn {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 17px;
+	left: 194px;
+}
+
+.Pro_care {
+
+	width: 100px;
+	height: 18px;
+	/*position: absolute;
+	top: 16px;
+	left: 40px;*/
+	margin: 16px 40px;
+	padding: 0px;
+}
+
+.Ellipse_5 {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+
+	background: #717171;
+}
+
+.arrow {
+	position: absolute;
+}
+
+.nu_Pro_care {
+	order: 2;
+}
+
+.nu_Basics {
+	order: 0;
+}
+
+.nu_Standard {
+	order: 1;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: row-reverse;
+	/*justify-content: space-between;*/
+}
+
+.contacts-container {
+
+	width: 450px;
+	height: 50px;
+	margin: 148px 0px 0px 64px;
+	padding: 0px;
+	position: relative;
+}
+
+.Rectangle_no {
+	width: 450px;
+	height: 50px;
+	background: #D6E7D2;
+	box-shadow: 0px 9px 10px darkgrey;
+
+}
+
+.City {
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 5px 20px;
+	padding: 0px;
+	width: 204px;
+	height: 40px;
+	font-family: Inter;
+	Font-style: Regular;
+	Font-size: 20px;
+	Line-height: 40px;
+	color: #717171;
+
+
+
+}
+
+
+.Contact_us {
+	/*position: absolute;*/
+	width: 195px;
+	height: 51px;
+	margin: 60px 0px 0px 113px;
+	padding: 0px;
+	font-family: Inter;
+	Font-style: bold;
+	Font-size: 40px;
+	Line-height: 52px;
+	color: #499A18;
+
+
+
+}
+
+.Contact_woman_1 {
+
+	width: 400px;
+	/*height: 600px;*/
+	/*margin: 53px 0px 0px 109px;*/
+	margin: -170px 0px 0px 109px;
+	padding: 0px;
+	object-fit: cover;
+
+}
+
+.accordion_btn_no {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 17px;
+	left: 399px;
+}
+
+.document_completion {
+	padding: 40px 109px;
+}
+
+.content {
+	width: 1222px;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer_data {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 182px;
+	height: 50px;
+
+	/*padding: 40px 109px;*/
+
+}
+
+.social-list {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	margin: 11px 0px;
+	width: 188px;
+	height: 50px;
+}
+
+.social-list {
+
+	/*очистить первую точку*/
+	list-style-type: none;
+
+
+
+}
+
+
+
+.fonts {
+	Font-family: Inter;
+	Font-style: Regular;
+	Font-size: 20px;
+	Line-height: 50px;
+	Line-height: 207%;
+	Align: Left;
+	Vertical-align: Top;
+	Fill: Solid;
+
+}
+
+.github {
+	order: 2;
+
+
+}
+
+.dater {
+	order: 0;
+
+
+}
+
+.dat_2022 {
+	order: 1;
+
+
+}
+
+/*.document_completion div {
+	border: 3px solid
+		/*удалить посел подготовки 
+
+}*/
+
+.leaf_11 {
+	width: 33px;
+	height: 25px;
+	Opacity: 65%;
+	backdrop-filter: blur(9px);
+	transform: rotate(143deg);
+}
+
+.leaf_21 {
+	width: 97px;
+	height: 75px;
+	Opacity: 70%;
+	backdrop-filter: blur(5px);
+	transform: rotate(7deg);
+}
+
+.leaf_31 {
+	width: 68px;
+	height: 57px;
+	Opacity: 61%;
+	backdrop-filter: blur(7px);
+	transform: rotate(61deg);
+}
+
+.leaf_41 {
+	width: 33px;
+	height: 25px;
+	Opacity: 65%;
+	backdrop-filter: blur(9px);
+	transform: rotate(-128deg);
+}
+
+.leaf_51 {
+	width: 120px;
+	height: 77px;
+	Opacity: 75%;
+	backdrop-filter: blur(4px);
+	transform: rotate(-164deg);
+}
